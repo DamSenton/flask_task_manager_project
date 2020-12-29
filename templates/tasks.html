@@ -6,6 +6,7 @@
     <title>Task Manager</title>
 </head>
 <body>
+    <!-----Iterate over each item (task) in the tasks document-->
     {% for task in tasks %}
         {{ task.task_name }} <br>
         {{ task.category_name }}<br>
